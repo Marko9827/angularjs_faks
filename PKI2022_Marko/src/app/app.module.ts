@@ -12,12 +12,24 @@ import { AngularFireAuthModule } from "@angular/fire/compat/auth";
 import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
+import { HomeComponent } from './home/home.component';
+import { EventsComponent } from './services/events/events.component';
+import { AddComponent } from './services/add/add.component';
+import { EditComponent } from './services/edit/edit.component';
+import { DelComponent } from './services/del/del.component';
+import { UpdateComponent } from './services/update/update.component';
 //
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent,
+    EventsComponent,
+    AddComponent,
+    EditComponent,
+    DelComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
