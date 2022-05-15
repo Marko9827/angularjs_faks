@@ -23,12 +23,22 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AngularFireModule,
-    AngularFireAuthModule,
+    AngularFireModule.initializeApp({
+      apiKey: "AIzaSyB6sCGAOM7T8VCmMY1sk-5f9qGpQDVvvok",
+      authDomain: "blog-88dea.firebaseapp.com",
+      databaseURL: "https://blog-88dea.firebaseio.com",
+      projectId: "blog-88dea",
+      storageBucket: "blog-88dea.appspot.com",
+      messagingSenderId: "834954236272",
+      appId: "1:834954236272:web:358fffab61b5f39dd4bfb5",
+      measurementId: "G-G0HV6WCFJN"
+    }),
+     AngularFireAuthModule,
     AngularFireStorageModule,
     AngularFirestoreModule,
     AngularFireDatabaseModule
-     
+    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
