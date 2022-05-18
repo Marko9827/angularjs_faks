@@ -1,0 +1,18 @@
+ {
+  "rules": {
+    ".read": true,//"now < 1646521200000",  // 2022-3-6
+    ".write": true,//"now < 1646521200000",  // 2022-3-6
+  }
+} 
+
+/*
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    }
+  }
+}*/
